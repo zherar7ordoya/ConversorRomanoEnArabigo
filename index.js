@@ -20,28 +20,24 @@
  *
  * @bugs
  */
-
 const arabigoEnRomano = require("./arabigoEnRomano");
 const romanoEnArabigo = require("./romanoEnArabigo");
-
 const readline = require("readline").createInterface({
     input: process.stdin,
     output: process.stdout,
 }); // *-----------------------------------------=> LLAMADO AL MÓDULO DE CONSOLA
-
 console.clear();
 console.log("\x1b[36m%s\x1b[0m", "\nCONVERSOR DE ROMANO A ARÁBIGO (DECIMAL)\n");
-
-readline.question("\tNúmero romano:  ", (caracteres: string): void => {
+readline.question("\tNúmero romano:  ", (caracteres) => {
     let arabigo = romanoEnArabigo(caracteres); // *--------=> CONVERSIÓN DIRECTA
     let comprobacion = arabigoEnRomano(arabigo); // *------=> CONVERSIÓN INVERSA
     // *---------------------------------------------------------=> COMPROBACIÓN
     if (caracteres == comprobacion) {
         console.log("\tNúmero arábigo:", arabigo);
-    } else {
+    }
+    else {
         console.log("\tINGRESO INCORRECTO");
     }
-
     console.log("\x1b[36m%s\x1b[0m", "\nFIN DEL PROGRAMA\n");
     readline.close();
 });
