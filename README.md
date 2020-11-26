@@ -8,4 +8,6 @@ node index.js
 
 ---
 
+**MIT License**
+
 Copyright (c) 2020 [Gerardo Tordoya](https://zherar7ordoya.github.io/)
