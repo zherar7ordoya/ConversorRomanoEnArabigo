@@ -1,5 +1,5 @@
 {
-    "name": "conversor-de-romano-a-arabigo",
+    "name": "romano-a-arabigo",
     "version": "1.0.0",
     "description": "Solución completa (con comprobación inversa) a la conversión de un número romano a uno arábigo (decimal)",
     "main": "index.js",
@@ -12,10 +12,8 @@
     },
     "keywords": [
         "conversor",
-        "número",
         "romano",
-        "arábigo",
-        "decimal"
+        "arábigo"
     ],
     "author": "Gerardo Tordoya",
     "license": "MIT",
