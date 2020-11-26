@@ -1,14 +1,14 @@
 {
-    "name": "conversor-romano-arabigo",
+    "name": "conversor-de-romano-a-arabigo",
     "version": "1.0.0",
-    "description": "Solución completa (con comprobación inversa) a la conversión de un número romano a uno arábigo (decimal).",
+    "description": "Solución completa (con comprobación inversa) a la conversión de un número romano a uno arábigo (decimal)",
     "main": "index.js",
     "scripts": {
         "test": "node index.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zherar7ordoya/ConversorRomanoEnArabigo.git"
+        "url": "git+https://github.com/zherar7ordoya/TypeScript-Nros-Romanos.git"
     },
     "keywords": [
         "conversor",
@@ -20,9 +20,9 @@
     "author": "Gerardo Tordoya",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/zherar7ordoya/ConversorRomanoEnArabigo/issues"
+        "url": "https://github.com/zherar7ordoya/TypeScript-Nros-Romanos/issues"
     },
-    "homepage": "https://github.com/zherar7ordoya/ConversorRomanoEnArabigo#readme",
+    "homepage": "https://zherar7ordoya.github.io/",
     "devDependencies": {
         "@types/node": "^14.14.6"
     }
